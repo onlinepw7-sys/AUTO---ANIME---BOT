@@ -27,7 +27,7 @@ CAPTION_FORMAT = """
 <b>✦─━━━━━━━━━━─✦</b>
 <b>›› Sᴇᴀꜱᴏɴ: {anime_season}</b>
 <b>›› Eᴘɪsᴏᴅᴇ: {ep_no}</b>
-<b>››Qᴜᴀʟɪᴛʏ : 480ᴘ | 720ᴘ | 1080ᴘ</b>
+<b>›› Qᴜᴀʟɪᴛʏ : 480ᴘ | 720ᴘ | 1080ᴘ</b>
 <b>›› Lᴀɴɢᴜᴀɢᴇ: {lang}</b>
 <b>✦─━━━━━━━━━━─✦</b>
 <blockquote><b>≡ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/animes_street'>ᴀɴɪᴍᴇ ꜱᴛʀᴇᴇᴛ</a></b></blockquote>
@@ -40,7 +40,7 @@ MOVIE_CAPTION = """
 <b>✦─━━━━━━━━━━─✦</b>
 <b>›› Sᴇᴀꜱᴏɴ: {anime_season}</b>
 <b>›› Eᴘɪsᴏᴅᴇ: {ep_no}</b>
-<b>››Qᴜᴀʟɪᴛʏ : 480ᴘ | 720ᴘ | 1080ᴘ</b>
+<b>›› Qᴜᴀʟɪᴛʏ : 480ᴘ | 720ᴘ | 1080ᴘ</b>
 <b>›› Lᴀɴɢᴜᴀɢᴇ: {lang}</b>
 <b>✦─━━━━━━━━━━─✦</b>
 <blockquote><b>≡ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/animes_street'>ᴀɴɪᴍᴇ ꜱᴛʀᴇᴇᴛ</a></b></blockquote>
