@@ -24,15 +24,14 @@ MANUAL_ANILIST_NAMES = {
 
 CAPTION_FORMAT = """
 <blockquote><b><i> {title} </i></b></blockquote>
-<b>✦─━━━━━━━━━━─✦</b>
-<b>›› Sᴇᴀꜱᴏɴ: {anime_season}</b>
-<b>›› Eᴘɪsᴏᴅᴇ: {ep_no}</b>
-<b>›› Qᴜᴀʟɪᴛʏ : 480ᴘ | 720ᴘ | 1080ᴘ</b>
-<b>›› Lᴀɴɢᴜᴀɢᴇ: {lang}</b>
-<b>✦─━━━━━━━━━━─✦</b>
-<blockquote><b>≡ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/animes_street'>ᴀɴɪᴍᴇ ꜱᴛʀᴇᴇᴛ</a></b></blockquote>
-<b>✦─━━━━━━━━━━─✦</b>
-<blockquote><b>≡ ᴜꜱᴇ <a href='https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad'>vlc player</a> or <a href='https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad'>mx player</a> ᴛᴏ ᴄʜᴀɴɢᴇ ᴀᴜᴅɪᴏ ᴀɴᴅ ꜱᴜʙᴛɪᴛʟᴇꜱ ꜰᴏʀ ᴀ ʙᴇᴛᴛᴇʀ ᴠɪᴇᴡɪɴɢ ᴇxᴩᴇʀɪᴇɴᴄᴇ.</b></blockquote>
+<b>──────────────────────</b>
+<b>‣  ꜱᴛᴀᴛᴜꜱ : {status} <\b>
+<b>‣  ꜱᴇᴀꜱᴏɴ : {anime_season}</b>
+<b>‣  ᴇᴘɪꜱᴏᴅᴇꜱ : {ep_no}</b>
+<b>‣  ǫᴜᴀʟɪᴛʏ : 480ᴘ | 720ᴘ | 1080ᴘ</b>
+<b>‣  ʟᴀɴɢᴜᴀɢᴇ : {lang}</b>
+<b>────────────────────────</b>
+<blockquote><b>● ᴜꜱᴇ <a href='https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad'>vlc player</a> ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ  <a href='https://t.me/Kazefiles986_bot?start=BQADAQAD4Q0AAtgh0EY3ymOahc93zRYE'>ɢᴏᴏᴅ ᴠɪᴅᴇᴏ</a>  ᴀᴘᴘ ᴛᴏ ᴡᴀᴛᴄʜ ᴛʜᴇ ᴇᴘɪꜱᴏᴅᴇꜱ ᴡɪᴛʜ ɢᴏᴏᴅ ᴇxᴘᴇʀɪᴇɴᴄᴇ!</b></blockquote>
 """
 
 MOVIE_CAPTION = """
