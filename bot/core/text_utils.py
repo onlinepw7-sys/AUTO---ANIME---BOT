@@ -23,7 +23,7 @@ MANUAL_ANILIST_NAMES = {
 }
 
 CAPTION_FORMAT = """
-<blockquote><b>❐<i> {title} </i></b></blockquote>
+<blockquote><b><i> {title} </i></b></blockquote>
 <b>✦─━━━━━━━━━━─✦</b>
 <b>›› Sᴇᴀꜱᴏɴ: {anime_season}</b>
 <b>›› Eᴘɪsᴏᴅᴇ: {ep_no}</b>
@@ -36,7 +36,7 @@ CAPTION_FORMAT = """
 """
 
 MOVIE_CAPTION = """
-<blockquote><b>❐<i> {title} </i></b></blockquote>
+<blockquote><b><i> {title} </i></b></blockquote>
 <b>✦─━━━━━━━━━━─✦</b>
 <b>›› Sᴇᴀꜱᴏɴ: {anime_season}</b>
 <b>›› Eᴘɪsᴏᴅᴇ: {ep_no}</b>
