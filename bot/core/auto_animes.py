@@ -35,23 +35,23 @@ import hashlib
 MAX_ABOUT_LEN = 255
 
 btn_formatter = {
-    'HDRi':'𝗛𝗗𝗥𝗶𝗽',
-    '1080':'𝟭𝟬𝟴𝟬𝗣', 
-    '720':'𝟳𝟮𝟬𝗣',
-    '480':'𝟰𝟴𝟬𝗣',
+    'HDRi':'𝐇𝐃𝐑𝐢𝐩',
+    '1080':'𝟏𝟎𝟖𝟎𝐩', 
+    '720':'𝟕𝟐𝟎𝐩',
+    '480':'𝟒𝟖𝟎𝐩',
     '360':'𝟯𝟲𝟬𝗣',
     '240':'𝟮𝟰𝟬𝗣',
     '144':'𝟭𝟰𝟰𝗣'
 }
 
 #RAW_BTN = "𝗥𝗔𝗪"
-RAW_BTN = "𝗛𝗗𝗥𝗶𝗽"
-MANGA_BTN = "𝗥𝗲𝗮𝗱 𝗡𝗼𝘄"
-MANGA_READ_BUTTON = "𝗥𝗲𝗮𝗱 𝗡𝗼𝘄"
-MANGA_CHNL_BUTTON = "𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"
-DOWNLOAD_BTN = "𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗡𝗼𝘄"
-DOWNLOAD_ANIME_BTN = "𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗡𝗼𝘄"
-DOWNLAOD_CHNL_BTN = "𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"
+RAW_BTN = "𝐇𝐃𝐑𝐢𝐩"
+MANGA_BTN = "ʀᴇᴀᴅ ɴᴏᴡ"
+MANGA_READ_BUTTON = "ʀᴇᴀᴅ ɴᴏᴡ"
+MANGA_CHNL_BUTTON = "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ"
+DOWNLOAD_BTN = "ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ"
+DOWNLOAD_ANIME_BTN = "ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ"
+DOWNLAOD_CHNL_BTN = "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ"
 
 import hashlib
 import time
@@ -80,7 +80,7 @@ def patch_caption_episode(caption, episode_count):
     except Exception:
         episode_count = 1
     return re.sub(
-        r"(❍\s*𝗘𝗽𝗶𝘀𝗼𝗱𝗲:\s*<i>)[^<]+(</i>)",
+        r"(❍\s*ᴇᴘɪꜱᴏᴅᴇ:\s*<i>)[^<]+(</i>)",
         f"\\1{episode_count}\\2",
         caption
     )
@@ -162,7 +162,7 @@ async def process_batch_anime(anime_name, torrent_url, audio):
     caption = await aniInfo.get_caption()
 
     caption = re.sub(
-        r"(❍\s*𝗘𝗽𝗶𝘀𝗼𝗱𝗲:\s*<i>)[^<]+(</i>)",
+        r"(❍\s*ᴇᴘɪꜱᴏᴅᴇ:\s*<i>)[^<]+(</i>)",
         lambda m: f"{m.group(1)}1-{episode_count}{m.group(2)}",
         caption
     )
