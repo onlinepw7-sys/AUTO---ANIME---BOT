@@ -24,7 +24,7 @@ MANUAL_ANILIST_NAMES = {
 
 CAPTION_FORMAT = """
 <blockquote><b><i> {title} </i></b></blockquote>
-<b>──────────────────────</b>
+<b>────────────────────────</b>
 <b>‣  ꜱᴛᴀᴛᴜꜱ : {status} <\b>
 <b>‣  ꜱᴇᴀꜱᴏɴ : {anime_season}</b>
 <b>‣  ᴇᴘɪꜱᴏᴅᴇꜱ : {ep_no}</b>
